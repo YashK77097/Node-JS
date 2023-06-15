@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <div class="container">
+      <h1>html form</h1>
+      <form id="myForm">
+        <label for="Username">Username</label>
+        <br />
+        <input type="email" id="Username" required />
+        <br />
+        <label for="passwd">Password</label>
+        <br />
+        <input type="password" id="passwd" required />
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+  <script>
+    let formEl = document.getElementById("myForm");
+    let nameEl = document.getElementById("Username");
+    let formData = {
+      name: "",
+      password: "",
+    };
+  </script>
+</html>
